@@ -1,0 +1,153 @@
+body, html
+{
+    height: 100%;
+
+}
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px 20px 30px 50px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.contain
+{
+    border-radius: 15px;
+    background-color:rgb(197, 251, 255);
+    min-height: 100%;
+    max-height: max-content;
+    display: flex;
+    flex-direction: column;    
+    padding: 15px 30px 30px 40px ;
+}
+header
+{
+    display: grid;
+    
+    margin: 10px 5px 5px 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.pluper
+{
+    background-color: white;
+    border-radius: 15px;
+}
+.menu
+{
+    grid-column-start:2  ;
+    grid-column-start:4  ;
+}
+.btn
+{
+    color: rgb(219, 219, 219);
+    box-shadow: 0 0 3px black;
+    border-radius: 15px ;
+    background-color: white;
+    padding : 5% 5px 5% 5px;
+    margin: 5px 5px 5px 5px ;
+    text-align: center ;
+}
+.btn:hover
+{
+    color: rgb(155, 155, 155);
+   
+    transition: 0.5s;
+    
+    margin: 2px 7px 7px 2px ;
+    box-shadow: 0 0 5px black;
+   
+    background-color: rgb(255, 255, 255);
+}
+.main
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+
+ 
+.sitebar
+{
+    width: 20%;
+    margin-right:20px;
+    padding: 5px;
+    height: min-content;
+    
+    
+}
+.mainside
+{
+    height: max-content;
+    
+    width: 80%;
+    
+    
+    
+}
+.prebar
+{
+    box-shadow:  0 0 3px black ;
+    min-height: 100px;
+    height: 30%;
+    padding-top:10%;
+    text-align: center;
+    background-color: rgba(255, 99, 71, 0.473) ; 
+}
+.postbar
+{
+min-height: 70px;
+height: 13%;
+text-align: center;
+padding-top:10%;
+background-color: rgba(255, 255, 0, 0.534);
+}
+
+.text
+{
+    line-height: 1.5 ;
+    padding: 20px 30px 20px 30px;
+}
+footer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 10px;
+    min-height: 20%;
+    background-color: rgba(0, 0, 0, 0.418);
+    height: 30%;    
+    padding: 20px 30px 20px 30px;
+    color: white;
+}
+img
+{
+   max-width: 90% ;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+.textbar ul
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.textbar ul li 
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.paragraph
+{
+    text-align: center;
+}
+.first
+{
+
+}
+.second
+{
+padding-top: 30px;
+}
+.theard
+{
+
+}
